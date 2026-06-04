@@ -1,0 +1,17 @@
+*
+!Dockerfile.optimized
+!.dockerignore
+!package.json
+!pnpm-lock.yaml
+!index.html
+!vite.config.ts
+!tsconfig.json
+!tsconfig.app.json
+!tsconfig.node.json
+!eslint.config.js
+!public/
+!public/**
+!src/
+!src/**
+!test/
+!test/**

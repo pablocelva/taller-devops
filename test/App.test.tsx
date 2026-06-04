@@ -108,6 +108,8 @@ describe('App', () => {
     const link = screen.getByRole('link', { name: 'Ver curso oficial' })
 
     expect(link).toHaveAttribute('href', courseUrl)
+    expect(link).toHaveAttribute('target', '_blank')
+    expect(link).toHaveAttribute('rel', 'noreferrer')
 
   })
 })
